@@ -14,6 +14,7 @@ namespace WindowsFormsExamenGit
     {
         FrmAnimal frmAnimal = null;
         FrmViatge frmViatge = null;
+        FrmMenjar frmMenjar = null;
         public FrmMain()
         {
             InitializeComponent();
@@ -29,6 +30,12 @@ namespace WindowsFormsExamenGit
         {
             frmViatge = new FrmViatge();
             frmViatge.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmMenjar=new FrmMenjar();
+            frmMenjar.Show();
         }
     }
 }

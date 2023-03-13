@@ -58,10 +58,31 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMenjar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenjar.Designer.cs">
+      <DependentUpon>FrmMenjar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViatge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViatge.Designer.cs">
+      <DependentUpon>FrmViatge.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAnimal.resx">
+      <DependentUpon>FrmAnimal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenjar.resx">
+      <DependentUpon>FrmMenjar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViatge.resx">
+      <DependentUpon>FrmViatge.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

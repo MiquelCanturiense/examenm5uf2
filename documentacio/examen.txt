@@ -11,5 +11,19 @@ git push origin main
 Ex 3 
 nano .gitignore
 git add .
-git commit -m "Primer commit amb readme i copyleft"
+git commit -m "WindowsForms Ignore"
 git push origin main
+Ex 4
+git add .
+git commit -m "afegir botons
+git push origin main
+Ex 5
+git add .
+git commit -m "afegir forms"
+git push origin main
+Ex6
+git branch ampliacio
+git checkout ampliacio
+git add .
+git commit -m "afegir boto a branca ampliacio"
+git push origin ampliacio
