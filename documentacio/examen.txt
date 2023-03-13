@@ -1,0 +1,5 @@
+git add .
+git commit -m "Primer commit amb readme i copyleft"
+git remote add origin https://github.com/MiquelCanturiense/examenm5uf2.git
+git branck -M main
+git push origin main
