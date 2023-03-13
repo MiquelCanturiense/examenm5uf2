@@ -12,9 +12,23 @@ namespace WindowsFormsExamenGit
 {
     public partial class FrmMain : Form
     {
+        FrmAnimal frmAnimal = null;
+        FrmViatge frmViatge = null;
         public FrmMain()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmAnimal = new FrmAnimal();
+            frmAnimal.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmViatge = new FrmViatge();
+            frmViatge.Show();
         }
     }
 }
